@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  
+  #container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(93, 175, 226);
+  }
+  
+  #title {
+    margin-bottom: 20px;
+    color:black;
+  }
+  
+  #textbox {
+    margin-bottom: 20px;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+    padding: 10px;
+  }
+  
+  #char {
+    font-size: 20px;
+    color:black;
+    font-weight: bold;
+   align-items: flex-end;
+  }
